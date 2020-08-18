@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body b { 
     font-weight: 630;
 }
@@ -12,6 +13,8 @@ body b {
 
 .navbar { 
     height: 150px;
+    width:100%;
+    background-color: white !important;
 }
 
 .navbar-brand { 
@@ -23,6 +26,12 @@ body b {
 .nav-item {
     margin-right: 25px;
     font-size: 17px;
+}
+
+.navbar-collapse { 
+    background-color: white; 
+    margin-left: 5%;
+    padding: 3%;
 }
 
 #welcome {
@@ -54,6 +63,8 @@ body b {
     display:block;
     width:100% !important;
     margin: 5%;
+    margin-top: 0;
+    font-size: 18px;
 }
 
 .menuDiv { 
