@@ -7,6 +7,15 @@ body b {
     font-weight: 630;
 }
 
+body hr { 
+    border-width: 2px;
+    border-color: black;
+}
+
+body h2 { 
+    letter-spacing: 2px;
+}
+
 .title {
     margin-bottom: 3%;
 }
