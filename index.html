@@ -191,99 +191,22 @@
                 Please order by 3:00 p.m. on the day before @ 425-402-1786   
             </p>
         </div>
-        <h5>Box Breakfasts</h5>
-        <p class="note">Individual box breakfast are served w/Orange Juice.</p>
-        <div class="row">
-            <div class="col">Assorted Muffins</div>
-            <div class="col-7"></div>
-            <div class="col">$2.75/person</div>
+        <div id="boxBreakfastsDiv">
+            <h5>Box Breakfasts</h5>
+            <p class="note">Individual box breakfast are served w/Orange Juice.</p>
         </div>
-        <div class="row">
-            <div class="col">Turkey & Cheese Croissant Box</div>
-            <div class="col-7"></div>
-            <div class="col">$7.45/person</div>
+        
+        <div id="breakfastPlattersDiv">
+            <h5>Breakfast Platters</h5>
         </div>
-        <div class="row">
-            <div class="col">Bagel w/Cream Cheese & Jam</div>
-            <div class="col-7"></div>
-            <div class="col">$6.45/person</div>
-        </div>
-        <div class="row">
-            <div class="col">Blueberry Muffin & Fruit Cup</div>
-            <div class="col-7"></div>
-            <div class="col">$2.75/person</div>
-        </div>
-        <div class="row">
-            <div class="col">Fruit Yogurt Parfait</div>
-            <div class="col-7"></div>
-            <div class="col">$6.45/person</div>
+    
+        <div id="boxLunchesDiv">
+            <h5>Box Lunches</h5>
+            <p class="note">Comes w/ bag of chips, a cookie, and water or soda.</p>
         </div>
 
-
-        <h5>Breakfast Platters</h5>
-        <div class="row">
-            <div class="col">Bagels & Muffins Platter</div>
-            <div class="col-7"></div>
-            <div class="col">$3.99/person</div>
-        </div>
-        <div class="row">
-            <div class="col">Mixed Breakfast Sandwich Platter</div>
-            <div class="col-7"></div>
-            <div class="col">$4.45/person</div>
-        </div>
-
-
-        <h5>Box Lunches</h5>
-        <p class="note">Comes w/ bag of chips, a cookie, and water or soda.</p>
-        <div class="row">
-            <div class="col">Turkey & Mozzarella w/ Tomato, Mixed Greens</div>
-            <div class="col-7"></div>
-            <div class="col">$11.99/person</div>
-        </div>
-        <div class="row">
-            <div class="col">Roast Beef & Cheddar w/ Tomato, Mixed Greens</div>
-            <div class="col-7"></div>
-            <div class="col">$11.99/person</div>
-        </div>
-        <div class="row">
-            <div class="col">Albacore Tuna Salad & Cheddar w/ Tomato & Mixed Greens </div>
-            <div class="col-7"></div>
-            <div class="col">$11.99/person</div>
-        </div>
-        <div class="row">
-            <div class="col">Ham & Swiss w/ Tomato, Mixed Greens</div>
-            <div class="col-7"></div>
-            <div class="col">$11.99/person</div>
-        </div>
-
-
-        <h5>Sandwich/Wrap Platters & Salad Bowls</h5>
-        <div class="row">
-            <div class="col">Fruit Bowl</div>
-            <div class="col-7"></div>
-            <div class="col">$5.39/person</div>
-        </div>
-        <div class="row">
-            <div class="col">House Salad w/ Ranch or Vinaigrette</div>
-            <div class="col-7"></div>
-            <div class="col">$4.39/person</div>
-        </div>
-        <div class="row">
-            <div class="col">Cobb Salad w/ Bleu Cheese Dressing</div>
-            <div class="col-7"></div>
-            <div class="col">$5.39/person</div>
-        </div>
-        <div class="row">
-            <div class="col">Caesar Salad w/ Grilled Chicken</div>
-            <div class="col-7"></div>
-            <div class="col">$5.39/person</div>
-        </div>
-        <div class="row">
-            <div class="col">Assorted Sandwich or Wrap Platter</div>
-            <div class="col-7">
-                Chicken Salad, Tuna Salad, Turkey, Vegetable Hummus
-            </div>
-            <div class="col">$6.79/person</div>
+        <div id="sandwhichWrapPlattersDiv"> 
+            <h5>Sandwich/Wrap Platters & Salad Bowls</h5>
         </div>
     </div>
 
@@ -336,11 +259,43 @@
             {"name":"Smoothies (100% fruit)", "small":"$4.10", "medium":"$4.50", "large":"$4.90", "description": "Choice between Strawberry, Mixed Berry, Mango, Banana, or Chocolate Banana"},
         ];
 
+        const boxBreakfasts = [
+            {"name":"Assorted Muffins", "price":"$2.75/person", "description":""},
+            {"name":"Turkey & Cheese Croissant Box", "price":"$7.45/person", "description":""},
+            {"name":"Bagel w/Cream Cheese & Jam", "price":"$6.45/person", "description":""},
+            {"name":"Blueberry Muffin & Fruit Cup", "price":"$2.75/person", "description":""},
+            {"name":"Fruit Yogurt Parfait", "price":"$6.45/person", "description":""},
+        ];
+
+        const breakfastPlatters = [
+            {"name":"Bagels & Muffins Platter", "price":"$3.99/person", "description":""},
+            {"name":"Mixed Breakfast Sandwich Platter", "price":"$4.45/person", "description":""},
+        ];
+
+        const boxLunches = [
+            {"name":"Turkey & Mozzarella w/ Tomato, Mixed Greens", "price":"$11.99/person", "description":""},
+            {"name":"Roast Beef & Cheddar w/ Tomato, Mixed Greens", "price":"$11.99/person", "description":""},
+            {"name":"Albacore Tuna Salad & Cheddar w/ Tomato & Mixed Greens", "price":"$11.99/person", "description":""},
+            {"name":"Ham & Swiss w/ Tomato, Mixed Greens", "price":"$11.99/person", "description":""},
+        ];
+
+        const sandwhichWrapsPlatters = [
+            {"name":"Fruit Bowl", "price":"$5.39/person", "description":""},
+            {"name":"House Salad w/ Ranch or Vinaigrette", "price":"$4.39/person", "description":""},
+            {"name":"Cobb Salad w/ Bleu Cheese Dressing", "price":"$5.39/person", "description":""},
+            {"name":"Caesar Salad w/ Grilled Chicken", "price":"$5.39/person", "description":""},
+            {"name":"Assorted Sandwich or Wrap Platter", "price":"$6.79/person", "description":"Chicken Salad, Tuna Salad, Turkey, Vegetable Hummus"},
+        ];
+
         var breakfastDiv = document.getElementById("breakfast-menu");
         var sandwichDiv = document.getElementById("sandwich-menu");
         var saladDiv = document.getElementById("salad-menu");
         var drinkDiv = document.getElementById("drinks-menu");
         var combinationsDiv = document.getElementById("combinations-menu");
+        var sandwhichWrapPlattersDiv = document.getElementById("sandwhichWrapPlattersDiv");
+        var boxLunchesDiv = document.getElementById("boxLunchesDiv");
+        var breakfastPlattersDiv = document.getElementById("breakfastPlattersDiv");
+        var boxBreakfastsDiv = document.getElementById("boxBreakfastsDiv");
 
         function populateFoodMenu(menuData, menuDiv) {
             for (var i = 0; i < menuData.length; i++) { 
@@ -424,6 +379,14 @@
         populateFoodMenu(combinations, combinationsDiv);
 
         populateDrinkMenu(drinks, drinkDiv);
+
+        populateFoodMenu(breakfastPlatters, breakfastPlattersDiv);
+
+        populateFoodMenu(boxLunches, boxLunchesDiv);
+
+        populateFoodMenu(sandwhichWrapsPlatters, sandwhichWrapPlattersDiv);
+
+        populateFoodMenu(boxBreakfasts, boxBreakfastsDiv);
 
     </script>
 
