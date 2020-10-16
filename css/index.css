@@ -45,8 +45,9 @@ body h2 {
 #welcome {
     height: 500px;
     background-color: gray;
-    background-image: url("../images/cafe-background.jpeg");
+    background-image: url("../images/cafe-background-blurry.jpg");
     background-size: cover;
+    background-position: center;
     color: white;
     margin: 0;
 }
