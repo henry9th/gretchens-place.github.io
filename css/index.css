@@ -23,7 +23,6 @@ body h2 {
 .navbar { 
     height: 150px;
     width:100%;
-    background-color: white !important;
 }
 
 .navbar-brand { 
@@ -38,7 +37,7 @@ body h2 {
 }
 
 .navbar-collapse { 
-    background-color: white; 
+    background-color: none; 
     margin-left: 5%;
     padding: 3%;
 }
