@@ -65,7 +65,7 @@
             <div id="store-information" class="container"> 
                 <div class="row justify-content-center">
                     <div class="col info">
-                        Monday - Friday <br/> 7:00 a.m. - 3:30 p.m.
+                        Monday - Friday <br/> 7:00 a.m. - 3:00 p.m.
                     </div>
                     <div class="col info">
                         22522 29th Dr SE Suite #106
@@ -160,7 +160,7 @@
         <div class="title">
             <h2>Combinations</h2>
             <hr>
-            <p class="note">Add $0.30 for Hot Sandwhices</p>
+            <p class="note">Add $0.75 for Hot Sandwhices</p>
         </div>
     </div>
 
@@ -214,49 +214,49 @@
 
         const breakfast = [
             {"name":"Yogurt & Berry Parfait", "price":"$4.29", "description":"Strawberry & Blueberry in Low Fat Vanilla Yogurt w/ Granola"},
-            {"name":"Quiche", "price":"$4.79/slice", "description":"Served hot.<br/>- Smoked Salmon, Chives, Sour Cream w/ Swiss cheese <br/>- Sausages & Peppers w/ Pepper Jack Cheese<br />- Bacon & Spinach w/ Provolone Cheese."},
-            {"name":"Breakfast Burrito", "price":"$4.79", "description":"Sausage, Egg, Hash-brown, Bell Peppers, Cheddar Cheese wrapped in a tortilla. Served hot."},
-            {"name":"Breakfast Sandwiches", "price":"$4.29", "description":"Served on a English Muffin or Bagel. Add $0.50 for Croissant. Served hot.<br/>- Ham, Egg and Cheddar<br />- Bacon, Egg and Cheddar<br />- Sausage, Egg and Cheddar"},
-            {"name":"Toasted Bagel", "price":"$2.19", "description":"w/ cream cheese"},
+            {"name":"Quiche", "price":"$4.99/slice", "description":"Served hot.<br/>- Smoked Salmon, Chives, Sour Cream w/ Swiss cheese <br/>- Sausages & Peppers w/ Pepper Jack Cheese<br />- Bacon & Spinach w/ Provolone Cheese."},
+            {"name":"Breakfast Burrito", "price":"$4.99", "description":"Sausage, Egg, Hash-brown, Bell Peppers, Cheddar Cheese wrapped in a tortilla. Served hot."},
+            {"name":"Breakfast Sandwiches", "price":"$4.99", "description":"Served on a English Muffin or Bagel. Add $0.50 for Croissant. Served hot.<br/>- Ham, Egg and Cheddar<br />- Bacon, Egg and Cheddar<br />- Sausage, Egg and Cheddar"},
+            {"name":"Toasted Bagel", "price":"$2.59", "description":"w/ cream cheese"},
         ];
     
         const sandwhiches = [
-            {"name":"Sandwiches", "price":"$6.79", "description":"<b>Meats:</b> Roast Beef, Ham, Turkey, Pastrami, Tuna Salad, Chicken Salad, Egg Salad, or Veggies<br /><b>Cheeses:</b> Swiss, Cheddar, Mozzarella, Pepper Jack or Provolone<br /><b>Breads:</b> White, Sour Dough, Multi-grain, Onion Rye or Croissant"},
-            {"name":"Hot Sandwiches", "price":"$7.09", "description":"<b>Capresi</b> (served hot or cold): Freshly sliced Mozzarella, Basil, Tomatoes, and Pesto on a French Baguette<br /><b>French Dip:</b> Roast Beef layered with Swiss cheese on a French roll and served with a side of Au Jus<br /><b>Rueben:</b> Your choice of Turkey or Pastrami, Swiss cheese, Red Cabbage Sauerkraut, 1000 Island dressing, and Mayo on Onion Rye<br /><b>BBQ Sandwich:</b> Pulled pork BBQ sandwich on a sesame bun with cheddar cheese<br /><b>Italian:</b> Pepperoni, Salami, Italian Ham on a French roll with tomatoes, shredded lettuce, sliced olives, Peperoncino and Provolone cheese<br /><b>Grilled Cheese:</b> with cheddar cheese, and choice of bread<br /><b>Tuna Melt:</b> tuna salad with cheddar cheese, and choice of bread"},
-            {"name":"Special Sandwiches", "price":"$8.50", "description":"<b>Panini:</b> Choice of meat (turkey, grilled chicken, ham, pastrami, or roast beef), mayo, pesto, Swiss cheese, spinach, onions, and tomato<br /><b>Club Sandwich:</b> Turkey AND Ham, bacon, lettuce, tomato, mayo, and honey mustard"},
+            {"name":"Sandwiches", "price":"$7.99", "description":"<b>Meats:</b> Roast Beef, Ham, Turkey, Pastrami, Tuna Salad, Chicken Salad, Egg Salad, or Veggies<br /><b>Cheeses:</b> Swiss, Cheddar, Mozzarella, Pepper Jack or Provolone<br /><b>Breads:</b> White, Sour Dough, Multi-grain, Onion Rye or Croissant"},
+            {"name":"Hot Sandwiches", "price":"$8.99", "description":"<b>Capresi</b> (served hot or cold): Freshly sliced Mozzarella, Basil, Tomatoes, and Pesto on a French Baguette<br /><b>French Dip:</b> Roast Beef layered with Swiss cheese on a French roll and served with a side of Au Jus<br /><b>Rueben:</b> Your choice of Turkey or Pastrami, Swiss cheese, Red Cabbage Sauerkraut, 1000 Island dressing, and Mayo on Onion Rye<br /><b>BBQ Sandwich:</b> Pulled pork BBQ sandwich on a sesame bun with cheddar cheese<br /><b>Italian:</b> Pepperoni, Salami, Italian Ham on a French roll with tomatoes, shredded lettuce, sliced olives, Peperoncino and Provolone cheese<br /><b>Grilled Cheese:</b> with cheddar cheese, and choice of bread<br /><b>Tuna Melt:</b> tuna salad with cheddar cheese, and choice of bread"},
+            {"name":"Special Sandwiches", "price":"$9.99", "description":"<b>Panini:</b> Choice of meat (turkey, grilled chicken, ham, pastrami, or roast beef), mayo, pesto, Swiss cheese, spinach, onions, and tomato<br /><b>Club Sandwich:</b> Turkey AND Ham, bacon, lettuce, tomato, mayo, and honey mustard"},
         ];
 
         const salads = [
-            {"name":"Caesar Salad w/ Grilled Chicken", "price":"$5.39", "description":"Chopped romaine lettuce, Chicken, Croutons and Caesar Salad Dressing"},
-            {"name":"Cobb Salad", "price":"$5.39", "description":"Chopped Romaine, Chicken, Bacon, Swiss cheese, Diced Tomatoes, Egg, Onions and Cucumber and your choice of dressing"},
-            {"name":"Spinach & Cranberry", "price":"$5.39", "description":"Baby Spinach, Cranberry, Egg, Bacon bits, Walnuts, Red Onion, Grape Tomato, Blue Cheese, Cranberry Dressing"},
-            {"name":"House Salad:", "price":"$4.39", "description":"Chopped Romaine, Cucumbers, Sliced Tomatoes, Shredded Cheddar Cheese and your choice of dressing"},
-            {"name":"Fruit Salad:", "price":"$5.39", "description":"Fresh cut seasonal fruit"},
-            {"name":"Fruit Cup", "price":"$3.29", "description":"Fresh cut seasonal fruit"},
+            {"name":"Caesar Salad w/ Grilled Chicken", "price":"$5.99", "description":"Chopped romaine lettuce, Chicken, Croutons and Caesar Salad Dressing"},
+            {"name":"Cobb Salad", "price":"$5.99", "description":"Chopped Romaine, Chicken, Bacon, Swiss cheese, Diced Tomatoes, Egg, Onions and Cucumber and your choice of dressing"},
+            {"name":"Spinach & Cranberry", "price":"$5.99", "description":"Baby Spinach, Cranberry, Egg, Bacon bits, Walnuts, Red Onion, Grape Tomato, Blue Cheese, Cranberry Dressing"},
+            {"name":"House Salad:", "price":"$4.99", "description":"Chopped Romaine, Cucumbers, Sliced Tomatoes, Shredded Cheddar Cheese and your choice of dressing"},
+            {"name":"Fruit Salad:", "price":"$5.99", "description":"Fresh cut seasonal fruit"},
+            {"name":"Fruit Cup", "price":"$3.99", "description":"Fresh cut seasonal fruit"},
         ];
         
         const combinations = [
-            {"name":"Lunch Box #1", "price":"$8.99", "description":"Any whole sandwich, chips, and can beverage or water"},
-            {"name":"Lunch Box #2", "price":"$9.89", "description":"Any whole sandwich, cup of soup or house salad, and can beverage or water"},
-            {"name":"Lunch Box #3", "price":"$10.89", "description":"Any whole sandwich, bowl of soup or any salad, and can beverage or water"},
-            {"name":"Duo #1", "price":"$7.50", "description":"House salad and cup of soup"},
-            {"name":"Duo #2", "price":"$7.50", "description":"Any 1/2 sandwich and cup of soup"},
-            {"name":"Duo #3", "price":"$7.50", "description":"Any 1/2 sandwich and house salad"},
+            {"name":"Lunch Box #1", "price":"$9.99", "description":"Any whole sandwich, chips, and can beverage or water"},
+            {"name":"Lunch Box #2", "price":"$10.99", "description":"Any whole sandwich, cup of soup or house salad, and can beverage or water"},
+            {"name":"Lunch Box #3", "price":"$11.99", "description":"Any whole sandwich, bowl of soup or any salad, and can beverage or water"},
+            {"name":"Duo #1", "price":"$8.50", "description":"House salad and cup of soup"},
+            {"name":"Duo #2", "price":"$8.50", "description":"Any 1/2 sandwich and cup of soup"},
+            {"name":"Duo #3", "price":"$8.50", "description":"Any 1/2 sandwich and house salad"},
         ];
         
         const drinks = [
             {"name":"Americano", "small":"$2.10", "medium":"$2.35", "large":"$2.70"},
-            {"name":"Latte", "small":"$2.70", "medium":"$3.25", "large":"$3.60"},
+            {"name":"Latte", "small":"$2.99", "medium":"$3.45", "large":"$3.99"},
             {"name":"Cappuccino", "small":"$3.10", "medium":"$3.10", "large":"$3.25"},
-            {"name":"Mocha", "small":"$2.95", "medium":"$3.50", "large":"$3.70"},
-            {"name":"Breve", "small":"$2.60", "medium":"$3.00", "large":"$3.90"},
-            {"name":"Chai Tea Latte", "small":"$2.80", "medium":"$3.30", "large":"$3.55"},
+            {"name":"Mocha", "small":"$3.45", "medium":"$3.50", "large":"$3.70"},
+            {"name":"Breve", "small":"$2.60", "medium":"$3.95", "large":"$4.40"},
+            {"name":"Chai Tea Latte", "small":"$3.50", "medium":"$4.20", "large":"$4.45"},
             {"name":"Hot Chocolate", "small":"$2.20", "medium":"$2.35", "large":"$2.60"},
             {"name":"Espresso", "small":"$1.50 (single)", "medium":"$1.85 (double)","large":""}, // do manually?
             {"name":"Drip Coffee", "small":"$1.55", "medium":"$1.75", "large":"$1.85"},
             {"name":"Hot or Iced Tea (Numi organic tea)", "small":"$1.55", "medium":"$1.75", "large":"$1.85"},
             {"name":"Italian Soda", "small":"$2.20", "medium":"$2.70", "large":"$3.00"},
-            {"name":"Smoothies (100% fruit)", "small":"$4.10", "medium":"$4.50", "large":"$4.90", "description": "Choice between Strawberry, Mixed Berry, Mango, Banana, or Chocolate Banana"},
+            {"name":"Smoothies (100% fruit)", "small":"$4.50", "medium":"$4.99", "large":"$5.50", "description": "Choice between Strawberry, Mixed Berry, Mango, Banana, or Chocolate Banana"},
         ];
 
         const boxBreakfasts = [
